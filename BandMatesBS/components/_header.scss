@@ -1,0 +1,83 @@
+
+
+header{
+    text-align: center;
+    font-size: 20px;
+    background-blend-mode:color-burn;
+    opacity: 0.9;
+    margin:0;
+    grid-area:header;
+}
+  
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    letter-spacing: 7px;
+    border-style: groove;
+    border-radius: 0px;
+    border-color: black;
+    border-width: 3px;
+  
+}
+nav{  
+    list-style-type: none;
+    text-align: center;
+    grid-area:nav;
+                ul{
+                    list-style-type: none;
+                    text-align: center;
+                    li{
+                        background-color: #e4e4e2;
+                        border: #D7C8B6 2px solid;
+                        display: inline;
+                        margin-right: 10px;
+                    }
+
+                }
+
+}
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+    grid-area:nav;
+                #navegador li{
+                    display: inline;
+                    text-align: center;
+                    margin: 0 10px 0 0;
+                    #navegador li a {
+                        padding: 2px 7px 2px 7px;
+                        color: #666;
+                        background-color: #eeeeee;
+                        border: 1px solid #ccc;
+                        text-decoration: none;
+                        #navegador li a:hover{
+                            background-color: #333333;
+                            color: $background-principal;
+                            font-weight: bold;
+                        }
+                    }
+                }
+}
+
+.encabezado{
+    background-image: url("../assets/parejaoscuroplaya.jpg");
+    text-align: center;
+    font-size: 20px;
+    background-blend-mode:color-burn;
+    opacity: 0.8;
+    font-size: medium;
+  
+}
+  
+h2 figure{
+    width: 150px;
+    height:150px;
+    border-radius: 100px;
+    background: url(../Responsive/imgs/Logo-pequeño.png); 
+}
+.logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

@@ -1,0 +1,130 @@
+@import "../utilities/variables";
+@import "../components/header";
+@import "../components/footer";
+
+*{
+    margin:0;
+    padding:0;
+  }
+
+body{
+    margin: 0 0 0 0;
+    background-color: $background-principal;
+    font-size: medium;
+    background-image: url("../assets/TURISMOFESTIVALESESPAÑA1.jpg");
+    background-size:cover;
+    }
+h2{
+    background-color: #e4e4e2;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 3px;
+}
+p{
+    background-color: #e4e4e2;
+}
+h4{
+    text-align: center;
+    background-color: #e4e4e2;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 3px;
+}
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+    background-image: url("../assets/62620801-concierto-de-música-en-el-parque-festival-de-música-al-aire-libre-la-gente-bailando-en-el-parque-de-.webp");
+    font-weight: 900;
+}
+.section1{
+    color: #666;
+    background-color: #ea7777;
+    border: 1px solid rgb(10, 9, 9);
+    text-decoration: none;
+}
+
+ #noticia {
+    width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+    font-weight: 900;
+}
+h2 figure{
+    width: 150px;
+    height:150px;
+    border-radius: 100px;
+    background: url(../Responsive/imgs/Logo-pequeño.png); 
+}
+.logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.mapa{
+    flex:display;
+    position:center;
+}
+header{
+    text-align: center;
+    font-size: 20px;
+    background-blend-mode:color-burn;
+    opacity: 0.9;
+    margin:0;
+    grid-area:header;
+}
+  
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    letter-spacing: 7px;
+    border-style: groove;
+    border-radius: 0px;
+    border-color: black;
+    border-width: 3px;
+  
+}
+ul {
+    list-style-type: none;
+    text-align: center
+}
+    
+li {
+    background-color: #e4e4e2;
+    border: #D7C8B6 2px solid;
+    display: inline;
+    margin-right: 10px;
+}
+    
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+    grid-area:nav;
+}
+  
+#navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+#navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+   
+#navegador li a:hover{
+    background-color: #333333;
+    color: #ffffff;
+    font-weight: bold;
+}
+     
