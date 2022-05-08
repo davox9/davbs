@@ -1,0 +1,16 @@
+@mixin fondopersonalizado {
+
+    background-color: $background-principal;
+    color: $colorletra;
+}
+$primary: #326dee;
+$secondary:#1ac888;
+$third:#d32752;
+$forth:#f6c31c;
+
+$colors: (
+    "primary":#326dee,
+    "secondary":#1ac888,
+    "third": #d32752,
+    "forth": #f6c31c
+);

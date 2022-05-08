@@ -1,0 +1,10 @@
+$mapacolores:(
+   
+);
+
+@each $nombres, $colores in $mapacolores {
+    .boton-#{$nombres}{
+        background-color: $colores;
+        border: $colores;
+    }
+}

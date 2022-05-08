@@ -1,6 +1,9 @@
 @import "../utilities/variables";
+@import "../utilities/mixins";
 @import "../components/header";
 @import "../components/footer";
+
+
 
 *{
     margin:0;
@@ -15,12 +18,30 @@ body{
     background-size:cover;
     }
 h2{
-    background-color: #e4e4e2;
+  
     border-style: groove;
     border-radius: 10px;
     border-color: black;
     border-width: 3px;
+    @include fondopersonalizado;
 }
+h3{ border-style: groove;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 3px;
+
+
+}
+h5{
+    border-style: groove;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 3px;
+    background-color: map-get($map: $colors, $key: "secondary");
+    
+}
+
+
 p{
     background-color: #e4e4e2;
 }
@@ -31,10 +52,11 @@ h4{
     border-radius: 10px;
     border-color: black;
     border-width: 3px;
+    
 }
 form{
 	width:300px;
-	padding:16px;
+	padding:17px;
 	border-radius:10px;
 	margin:auto;
 	background-color:#ccc;
@@ -48,13 +70,13 @@ form{
     text-decoration: none;
 }
 
- #noticia {
+ .noticia {
     width:300px;
 	padding:16px;
 	border-radius:10px;
 	margin:auto;
-	background-color:#ccc;
     font-weight: 900;
+    
 }
 h2 figure{
     width: 150px;
@@ -81,7 +103,7 @@ header{
 }
   
 h1{
-    font-size: 50px;
+    font-size: 55px;
     text-align: center;
     margin: 0px;
     letter-spacing: 7px;
