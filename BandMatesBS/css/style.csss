@@ -172,7 +172,7 @@ h3 {
   border-width: 3px;
 }
 
-h5, p {
+h5 {
   border-style: groove;
   border-radius: 10px;
   border-color: black;
@@ -294,4 +294,4 @@ li {
   font-weight: bold;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.csss.map */

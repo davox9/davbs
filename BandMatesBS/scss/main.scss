@@ -44,6 +44,7 @@ h5{
 
 p{
     background-color: #e4e4e2;
+    @extend h5;
 }
 h4{
     text-align: center;
